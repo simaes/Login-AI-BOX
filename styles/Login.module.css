@@ -1,0 +1,32 @@
+.title {
+	border-bottom: 2px solid black;
+	font-size: xx-large;
+	display: block;
+	width: 15%;
+	margin-inline: auto;
+}
+.form {
+	display: flex;
+	position: relative;
+	width: 100%;
+}
+.label {
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 75%;
+	text-align: center;
+}
+.button {
+	width: 100%;
+	margin-block: 2em;
+	background: linear-gradient(90deg, #8f48ff, #1d5aff) !important;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.label{
+		left: 50%;
+	}
+}

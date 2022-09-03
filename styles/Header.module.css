@@ -1,0 +1,10 @@
+.enterButton {
+    border-radius: 20px;
+}
+
+.enterButton:hover{
+    background-color: white;
+    color: #1f184a;
+    border: 1px solid #1d5aff;
+    box-shadow: 0 0 4px 1px #1d5aff;
+}
